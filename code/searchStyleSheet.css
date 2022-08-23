@@ -1,0 +1,59 @@
+/*
+<!-- Sign up CSS-->
+*/
+
+/*********************************************/
+/* Set the background color of the whole page*/
+/*********************************************/
+
+body{
+    background-color: powderblue;
+
+}
+/*********************************/
+/* CSS for the top set of tables */
+/*********************************/
+h1 {
+    background: white;
+    color: darkblue;
+    padding: 20px;
+    border-style: double;
+}
+
+div.form-group {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    margin: 10px 10px;
+}
+
+div.form-group > * {
+    -webkit-flex: 1 1 150px;
+    flex: 1 1 150px;
+}
+
+form#userInformation {
+    display: block;
+    width: 50%;
+}
+
+input[type='submit'] {
+    font-size: 1.2em;
+    float: right;
+    color: gray;
+    background: lightgreen;
+}
+
+
+label {
+    font-size: 1.1em;
+    color: black;
+}
+label span {
+    color: red;
+}
+
+
+
+
+

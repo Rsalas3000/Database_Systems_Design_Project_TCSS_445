@@ -1,0 +1,70 @@
+/*
+<!-- Find Applicants CSS-->
+*/
+
+/*********************************************/
+/* Set the background color of the whole page*/
+/*********************************************/
+
+body{
+    background-color: powderblue;
+}
+/*********************************/
+/* CSS for the top set of tables */
+/*********************************/
+div.listgroup {
+    padding: 30px;
+    display: block;
+    float: left;
+    width: 100%;
+}
+
+p.mb-1 {
+    text-align: center;
+}
+
+table thead tr {
+    height: 50px;
+}
+
+
+
+table {
+    background: white;
+    border-collapse: collapse;
+    font-size: 1em;
+    width: 30%;
+}
+
+table td{
+    border-bottom: solid 1px lightgray;
+}
+
+table th.top{
+    text-align: center;
+
+}
+/* CSS for the bottom searches */
+/*******************************/
+
+/*******************************/
+div.searchArea {
+    padding: 30px;
+    display: block;
+    float: left;
+    width: 100%;
+}
+
+h2.searchHeader {
+    color: midnightblue;
+    font-family: verdana;
+}
+
+div.searchApplicants {
+    display: block;
+}
+
+.hidden{
+    display:none;
+}
+
